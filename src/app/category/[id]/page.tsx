@@ -4,6 +4,8 @@ import prisma from "@/lib/prisma";
 import { Clock, Heart, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 interface CategoryPageProps {
   params: Promise<{ id: string }>;
 }

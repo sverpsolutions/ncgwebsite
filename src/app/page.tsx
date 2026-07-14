@@ -4,6 +4,8 @@ import { Clock, FileText, Pill, Dog, Baby, Heart, Tag } from "lucide-react";
 import prisma from "@/lib/prisma";
 import HeroCarousel from "@/components/HeroCarousel";
 
+export const dynamic = "force-dynamic";
+
 // Placeholder banners representing brands
 const HERO_BANNERS = [
   {
